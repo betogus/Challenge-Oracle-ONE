@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+        * {
+            font-family: "Inter";
+        }
+    </style>
+    <title>Challenge ONE: Encriptador de Texto</title>
+</head>
+
+<body>
+    <section id="section-logo">
+        <img src="./assets/Vector.png" alt="Logo de Alura" id="logo-alura">
+    </section>
+    <section id="section-input">     
+        <textarea id="textarea" placeholder="Ingrese el texto aquí"></textarea>
+        
+    </section>
+    
+    <section id="section-button">
+        <p><a id="warn">!</a>  Sólo letras minúsculas y sin acentos</p>
+        <div id="button-container">
+            <div id="button-encriptar">
+                <p class="button-text">Encriptar</p>
+            </div>
+            <div id="button-desencriptar">
+                <p>Desencriptar</p>
+            </div>
+        </div>
+    </section>
+    <section id="section-output">
+        <div id="output-container">
+            <div id="output-empty">
+            <img src="./assets/Muñeco.png" alt="muñeco" id="output-img">
+            <h2>Ningún mensaje fue encontrado</h2>
+            <p style="color: #495057">Ingresa el texto que desees encriptar o desencriptar</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
